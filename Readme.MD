@@ -97,4 +97,5 @@ Conclusão:
 
 Este projeto prático demonstra como a Microsoft Azure Cloud pode ser utilizada para criar uma solução robusta e escalável de armazenamento de dados para um e-commerce. O SQL Database fornece um banco estruturado para transações e o Blob Storage oferece um repositório confiável para arquivos não estruturados, como imagens. Essa abordagem não só melhora a organização dos dados, mas também garante alta disponibilidade e segurança. Com as ferramentas da Azure, é possível expandir facilmente o sistema para atender a demandas crescentes, tornando-o uma escolha ideal para negócios online.
 Além disso, é possível integrar funcionalidades para exibir imagens diretamente no front-end, melhorando a experiência visual dos clientes. Utilizando o Azure Blob Storage, as imagens dos produtos podem ser carregadas rapidamente, garantindo uma apresentação dinâmica e atrativa. Essa funcionalidade não só valoriza a aparência do e-commerce, mas também facilita a tomada de decisão por parte dos clientes, que podem visualizar os detalhes dos produtos de forma clara e eficiente.
-Imagens
+
+*Anexo Imagens
