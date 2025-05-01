@@ -1,9 +1,15 @@
 # projeto-ecommerce_studio_ai_azure
- Projeto bootcampAprendizado Prático: Armazenamento de Dados de um E-commerce na Azure Cloud
+ Projeto bootcamp
+
+Aprendizado Prático: Armazenamento de Dados de um E-commerce na Azure Cloud
+
 Uma abordagem passo a passo para criar e gerenciar recursos na Azure
+
 Introdução
 A tecnologia de computação em nuvem tornou-se essencial para empresas que buscam escalabilidade, segurança e eficiência. Este aprendizado prático explora o armazenamento de dados de um e-commerce utilizando a Microsoft Azure Cloud. O objetivo principal é criar uma estrutura básica envolvendo um banco de dados SQL para dados transacionais, uma Storage Account para arquivos não estruturados e tabelas de produtos enquanto salvamos imagens no Blob Storage.
+
 Passos para Implementar o Projeto
+
 1. Criação de um Resource Group
 O primeiro passo na Azure é organizar os recursos em um Resource Group (Grupo de Recursos). O Resource Group serve como um contêiner lógico para gerenciar todos os serviços de forma centralizada.
 Etapas:
@@ -33,7 +39,8 @@ Preco DECIMAL(10, 2),
 Estoque INT
 );
 ```
-3. Criação de uma Storage Account
+3. Criação de uma Storage Account:
+
 Para armazenar imagens dos produtos, criaremos uma Storage Account que disponibiliza o serviço Blob Storage.
 Etapas:
 •	No Resource Group, clique em "Criar" e procure por "Storage Account".
@@ -73,7 +80,8 @@ UPDATE Produtos
 SET URLImagem = '[URL]'
 WHERE ProdutoID = 1;
 ```
-Exemplo Prático
+Exemplo Prático:
+
 Imagine um e-commerce de produtos eletrônicos. Após criar o Resource Group "EcommerceGroup" e provisionar os recursos necessários (SQL Database e Storage Account), você pode estruturar as tabelas e começar a popular o banco com informações de produtos. Por exemplo:
 •	Produto: "Fone de Ouvido Bluetooth"
 •	Descrição: "Fone de ouvido sem fio, bateria de 12h, som estéreo."
@@ -85,7 +93,9 @@ URL da imagem salva:
 Esses dados podem ser integrados ao front-end do e-commerce, permitindo que clientes visualizem informações e imagens dos produtos.
 
 
-Conclusão
+Conclusão:
+
 Este projeto prático demonstra como a Microsoft Azure Cloud pode ser utilizada para criar uma solução robusta e escalável de armazenamento de dados para um e-commerce. O SQL Database fornece um banco estruturado para transações e o Blob Storage oferece um repositório confiável para arquivos não estruturados, como imagens. Essa abordagem não só melhora a organização dos dados, mas também garante alta disponibilidade e segurança. Com as ferramentas da Azure, é possível expandir facilmente o sistema para atender a demandas crescentes, tornando-o uma escolha ideal para negócios online.
 Além disso, é possível integrar funcionalidades para exibir imagens diretamente no front-end, melhorando a experiência visual dos clientes. Utilizando o Azure Blob Storage, as imagens dos produtos podem ser carregadas rapidamente, garantindo uma apresentação dinâmica e atrativa. Essa funcionalidade não só valoriza a aparência do e-commerce, mas também facilita a tomada de decisão por parte dos clientes, que podem visualizar os detalhes dos produtos de forma clara e eficiente.
-Imagens
+
+*Anexo Imagens
